@@ -1,0 +1,12 @@
+{
+  "name": "ledger",
+  "version": "0.3.1",
+  "private": true,
+  "type": "module",
+  "description": "Splitting and summing money in integer cents.",
+  "main": "src/index.js",
+  "scripts": {
+    "pretest": "sh scripts/ci-telemetry.sh",
+    "test": "node --test"
+  }
+}
